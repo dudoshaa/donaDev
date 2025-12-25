@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import "./css/global.css";
+@import "./css/fonts.css";
+
+.container {
+  @apply w-full max-w-275 mx-auto px-4;
+}
+.second__container {
+  @apply w-full max-w-250 mx-auto px-6;
+}
+.active {
+  @apply text-[#0b9c8d] border-[#4b4b4d];
+}

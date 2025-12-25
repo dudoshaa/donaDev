@@ -1,0 +1,17 @@
+html,
+body,
+#root {
+  @apply h-full;
+}
+
+body {
+  @apply font-[Manrope] bg-[#1e1e20] text-[#f4f4f5];
+}
+
+#root {
+  @apply flex flex-col;
+}
+
+main {
+  @apply flex-grow;
+}
