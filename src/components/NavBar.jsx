@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 function NavBar() {
   const { t, i18n } = useTranslation();
   return (
-    <header className="py-4">
+    <header className="py-4 mb-6">
       <div className="container flex items-center justify-between  ">
         <div className="">
           <img src="/assets/logo-portfolio.svg" alt="" />
