@@ -5,5 +5,6 @@
   "nav.contact": "Contact",
   "about.me": "I am a frontend web developer, specializing in creating user-friendly and efficient interfaces using React and modern web technologies.\nI pay close attention to code quality, structured solutions, and user experience.",
   "about.study": "During my learning journey, I have built several web projects and implemented solutions to achieve optimal results.\nEach project provided me with valuable experience and contributed to my professional growth.",
-  "about.new": "I am constantly striving to learn new technologies in the field and aim to achieve high results in collaborative work.\nMy goal is to ensure that every project is of high quality and fully meets user needs."
+  "about.new": "I am constantly striving to learn new technologies in the field and aim to achieve high results in collaborative work.\nMy goal is to ensure that every project is of high quality and fully meets user needs.",
+  "skill":"Skills"
 }

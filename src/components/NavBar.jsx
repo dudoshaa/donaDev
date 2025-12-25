@@ -18,12 +18,18 @@ function NavBar() {
             </NavLink>
           </li>
           <li>
-            <NavLink className="border-b-2 pb-2 border-transparent" to="/services">
+            <NavLink
+              className="border-b-2 pb-2 border-transparent"
+              to="/services"
+            >
               {t("nav.services")}
             </NavLink>
           </li>
           <li>
-            <NavLink className="border-b-2 pb-2 border-transparent" to="/projects">
+            <NavLink
+              className="border-b-2 pb-2 border-transparent"
+              to="/projects"
+            >
               {t("nav.projects")}
             </NavLink>
           </li>
@@ -32,7 +38,11 @@ function NavBar() {
           <GiWorld className="text-white text-lg" />
           <select
             value={i18n.language}
-            onChange={(e) => i18n.changeLanguage(e.target.value)}
+            onChange={(e) => {
+              const lang= e.target.value;
+              i18n.changeLanguage(lang)
+              localStorage.setItem("lang",lang)
+            }}
             className="uppercase font-bold bg-[#4B4B4D] text-white border-none outline-none cursor-pointer w-20"
           >
             <option className="bg-[#4B4B4D] text-white" value="uz">

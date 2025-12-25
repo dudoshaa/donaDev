@@ -4,5 +4,6 @@
   "nav.projects": "Loyihalar",
   "about.me": "Men — frontend web developer, React va zamonaviy web texnologiyalar yordamida foydalanuvchilarga qulay va samarali interfeyslar yaratishga ixtisoslashganman. Kod sifati, strukturaviy yechimlar va foydalanuvchi tajribasiga yuqori e’tibor beraman.",
   "about.study": "O‘rganish davomida men bir nechta web-loyihalarni yaratdim va ularda o‘z yechimlarim orqali vazifalarni optimal bajarishga erishdim.\nHar bir loyiha menga yangi tajriba berdi va professional o‘sishimni kuchaytirdi.",
-  "about.new": "Men doimo sohadagi yangi texnologiyalarni o‘rganishga intilaman hamda jamoaviy ishlash muhitida yuqori natijalarga erishishni maqsad qilganman.\nMaqsadim — har bir loyiha sifatli bo‘lishi va foydalanuvchi ehtiyojlarini to‘liq qondirish."
+  "about.new": "Men doimo sohadagi yangi texnologiyalarni o‘rganishga intilaman hamda jamoaviy ishlash muhitida yuqori natijalarga erishishni maqsad qilganman.\nMaqsadim — har bir loyiha sifatli bo‘lishi va foydalanuvchi ehtiyojlarini to‘liq qondirish.",
+  "skill":"Ko'nikmalar"
 }

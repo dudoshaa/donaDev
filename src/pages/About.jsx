@@ -2,14 +2,27 @@ import React from "react";
 import Paragraph from "../components/Paragraph";
 import { useTranslation } from "react-i18next";
 function About() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   return (
-    <div className="second__container">
-      <h1 className="font-bold lg:text-2xl mb-5">{t("nav.about")}</h1>
-      <Paragraph text={t("about.me")} />
-      <Paragraph text={t("about.study")} />
-      <Paragraph text={t("about.new")} />
-    </div>
+    <>
+      <section className="mb-8">
+        <div className="second__container">
+          <h2 className="title">
+            {t("nav.about")}
+          </h2>
+          <Paragraph text={t("about.me")} />
+          <Paragraph text={t("about.study")} />
+          <Paragraph text={t("about.new")} />
+        </div>
+      </section>
+      <section>
+        <div className="second__container">
+          <h2 className="title">
+            {t("skill")}
+          </h2>
+        </div>
+      </section>
+    </>
   );
 }
 
