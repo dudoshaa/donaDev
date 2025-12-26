@@ -1,11 +1,11 @@
 html,
 body,
 #root {
-  @apply h-full;
+  @apply h-full bg-[#1e1e20];
 }
 
 body {
-  @apply font-[Manrope] bg-[#1e1e20] text-[#f4f4f5];
+  @apply font-[Manrope]  text-[#f4f4f5];
 }
 
 #root {
