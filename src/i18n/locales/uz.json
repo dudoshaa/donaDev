@@ -2,8 +2,18 @@
   "nav.about": "Men Haqimda",
   "nav.services": "Xizmatlar",
   "nav.projects": "Loyihalar",
-  "about.me": "Men — frontend web developer, React va zamonaviy web texnologiyalar yordamida foydalanuvchilarga qulay va samarali interfeyslar yaratishga ixtisoslashganman. Kod sifati, strukturaviy yechimlar va foydalanuvchi tajribasiga yuqori e’tibor beraman.",
-  "about.study": "O‘rganish davomida men bir nechta web-loyihalarni yaratdim va ularda o‘z yechimlarim orqali vazifalarni optimal bajarishga erishdim.\nHar bir loyiha menga yangi tajriba berdi va professional o‘sishimni kuchaytirdi.",
-  "about.new": "Men doimo sohadagi yangi texnologiyalarni o‘rganishga intilaman hamda jamoaviy ishlash muhitida yuqori natijalarga erishishni maqsad qilganman.\nMaqsadim — har bir loyiha sifatli bo‘lishi va foydalanuvchi ehtiyojlarini to‘liq qondirish.",
-  "skill":"Ko'nikmalar"
+  "about.me": "Men — frontend web developer, React va zamonaviy web texnologiyalar yordamida foydalanuvchilarga qulay va samarali interfeyslar yaratishga ixtisoslashganman. Kod sifati, strukturaviy yechimlar va foydalanuvchi tajribasiga yuqori e’tibor beraman. json formatga otkazib ber",
+  "about.study": "O‘rganish davomida bir nechta web-loyihalarni yaratdim va har bir loyihada vazifalarni optimal bajarishga erishdim. Bu tajribalar menga nafaqat texnik ko‘nikmalar, balki kreativ yondashuv va muammolarni yechish qobiliyatini ham rivojlantirdi.",
+  "about.new": "Shuningdek, musiqa va san’at bilan shug‘ullanaman, bu menga kreativ yechimlar topishda yordam beradi. Biznes va iqtisodiyotga qiziqishim esa loyiha strategiyasini yaxshiroq tushunishga imkon yaratadi.",
+  "about.future": "Kelajakda murakkab interaktiv web-loyihalarni yaratish, jamoaga qo‘shimcha qiymat qo‘shish va foydalanuvchi ehtiyojlarini to‘liq qondirish maqsadim. Har bir loyiha men uchun nafaqat ish, balki ijodiy jarayon.",
+  "skill": "Ko'nikmalar",
+  "service": "Sizning biznesingizga interaktiv va zamonaviy web-sayt kerakmi?",
+  "service.mobile": "Qanday yechim xohlaysiz?",
+  "service.web.desc": "Zamonaviy va responsiv saytlar yaratish.",
+  "service.ui": "UI/UX Design",
+  "service.ui.desc": "Foydalanuvchi interfeysi va dizayn optimizatsiyasi.",
+  "service.react.desc": "SPA (Single Page Application) va interaktiv komponentlar.",
+  "service.respo.desc": "Mobil,Planshet va desktop qurilmalarga moslashgan saytlar.",
+  "service.opt.desc": "Sayt tezligi va samaradorligini oshirish.",
+  "service.bug.desc": "Kodni tozalash va xatolarni tuzatish."
 }

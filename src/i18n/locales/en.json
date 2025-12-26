@@ -3,8 +3,18 @@
   "nav.services": "Services",
   "nav.projects": "Projects",
   "nav.contact": "Contact",
-  "about.me": "I am a frontend web developer, specializing in creating user-friendly and efficient interfaces using React and modern web technologies.\nI pay close attention to code quality, structured solutions, and user experience.",
-  "about.study": "During my learning journey, I have built several web projects and implemented solutions to achieve optimal results.\nEach project provided me with valuable experience and contributed to my professional growth.",
-  "about.new": "I am constantly striving to learn new technologies in the field and aim to achieve high results in collaborative work.\nMy goal is to ensure that every project is of high quality and fully meets user needs.",
-  "skill":"Skills"
+  "about.me": "I am a frontend web developer specializing in creating user-friendly and efficient interfaces using React and modern web technologies. I pay close attention to code quality, structured solutions, and user experience.",
+  "about.study": "During my learning journey, I developed several web projects, achieving optimal solutions for various tasks. These experiences helped me grow not only technically but also creatively, enhancing my problem-solving skills.",
+  "about.new": "I also have a background in music and art, which inspires creative solutions. My interest in business and economics allows me to better understand project strategy.",
+  "about.future": "In the future, I aim to create complex interactive web projects, contribute to team success, and fully meet user needs. Every project is not just work for me—it is a creative process.",
+  "skill": "Skills",
+  "service": "Does your business need an interactive and modern website?",
+  "service.mobile": "What kind of solution are you looking for?",
+  "service.web.desc": "Building modern and responsive websites.",
+  
+  "service.ui.desc": "User interface design and experience optimization.",
+  "service.react.desc": "Developing SPAs and interactive components.",
+  "service.respo.desc": "Websites optimized for mobile and desktop devices.",
+  "service.opt.desc": "Improving website speed and efficiency.",
+  "service.bug.desc": "Cleaning code and fixing bugs."
 }

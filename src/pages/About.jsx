@@ -8,15 +8,16 @@ function About() {
     <>
       <section className="mb-8">
         <div className="second__container">
-          <h2 className="title">{t("nav.about")}</h2>
+          <span className="title">{t("nav.about")}</span>
           <Paragraph text={t("about.me")} />
           <Paragraph text={t("about.study")} />
           <Paragraph text={t("about.new")} />
+          <Paragraph text={t("about.future")} />
         </div>
       </section>
       <section>
         <div className="second__container">
-          <h2 className="title">{t("skill")}</h2>
+          <span className="title">{t("skill")}</span>
           <ul className="grid grid-cols-3  lg:grid-cols-4 ismigrid-rows-3  place-items-center gap-2">
             <li  data-aos="zoom-in-up" className="lg:col-span-2 hover:scale-105 transition-all">
               <img

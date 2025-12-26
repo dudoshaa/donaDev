@@ -15,5 +15,5 @@
 
 /*ABOUT*/
 .title {
-  @apply inline-block font-semibold  py-2 px-3 border-dashed border-2 border-[#4b4b4d] rounded-2xl uppercase lg:text-2xl mb-8 hover:border-[#0b9c8d] hover:shadow-xl shadow-[#0b9c8d] transition-all;
+  @apply inline-block font-semibold  py-2 px-3 border-dashed border-2 border-[#4b4b4d] rounded-2xl uppercase lg:text-2xl mb-10 hover:border-[#0b9c8d] hover:shadow-xl shadow-[#0b9c8d] transition-all;
 }

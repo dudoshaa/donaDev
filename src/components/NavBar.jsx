@@ -7,7 +7,7 @@ function NavBar() {
   const { t, i18n } = useTranslation();
   const [open, setOpen] = useState(false);
   return (
-    <header className="py-4 mb-6">
+    <header className="py-4 mb-6 lg:mb-12">
       <div className="container flex items-center justify-between  ">
         <div className="block lg:hidden relative">
           <button onClick={() => setOpen(!open)}>
@@ -44,6 +44,16 @@ function NavBar() {
                   <img src="/assets/about.svg" alt="" width="20" />
                   <span> {t("nav.about")}</span>
                 </NavLink>
+              </li>{" "}
+              <li>
+                <NavLink
+                  className="flex items-center gap-1"
+                  to="/services"
+                  onClick={() => setOpen(false)}
+                >
+                  <img src="/assets/service.svg" alt="" width="20" />
+                  <span> {t("nav.services")}</span>
+                </NavLink>
               </li>
               <li>
                 <NavLink
@@ -55,17 +65,8 @@ function NavBar() {
                   <span> {t("nav.projects")}</span>
                 </NavLink>
               </li>
-              <li>
-                <NavLink
-                  className="flex items-center gap-1"
-                  to="/services"
-                  onClick={() => setOpen(false)}
-                >
-                  <img src="/assets/service.svg" alt="" width="20" />
-                  <span> {t("nav.services")}</span>
-                </NavLink>
-              </li>
             </ul>
+            <p className="fixed bottom-0 left-1 text-[10px]">v1.0.0</p>
           </div>
         </div>
 
