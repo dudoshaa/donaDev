@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { GiWorld } from "react-icons/gi";
 import { useTranslation } from "react-i18next";
 
@@ -15,7 +15,7 @@ function NavBar() {
               className=""
               src="/assets/hamburger.svg"
               alt="hamburger-icon"
-             width="50"
+              width="50"
             />
           </button>
 
@@ -65,12 +65,18 @@ function NavBar() {
                   <span> {t("nav.services")}</span>
                 </NavLink>
               </li>
-              
             </ul>
           </div>
         </div>
 
-        <img className="" src="/assets/logo-portfolio.svg" alt="logo" width="160"  />
+        <Link to="/">
+          <img
+            className=""
+            src="/assets/logo-portfolio.svg"
+            alt="logo"
+            width="160"
+          />
+        </Link>
         <ul className="hidden lg:flex items-center  gap-20 uppercase font-semibold">
           <li>
             <NavLink className="border-b-2 pb-2 border-transparent" to="/">
