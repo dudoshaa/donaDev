@@ -14,7 +14,7 @@ function Services() {
           {t("service.mobile")}
         </h2>
         <ul className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
-          <ServicesCard title="Web Development" desc={t("service.web.desc")} />
+          <ServicesCard  title="Web Development" desc={t("service.web.desc")} />
           <ServicesCard title="UI/UX Design" desc={t("service.ui.desc")} />
           <ServicesCard
             title="React.js Development"

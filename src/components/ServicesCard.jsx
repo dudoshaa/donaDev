@@ -2,7 +2,7 @@ import React from "react";
 
 function ServicesCard({ title, desc }) {
   return (
-    <li className="py-10 px-8 bg-[#252527] rounded-3xl">
+    <li className="py-10 px-8 bg-[#252527] rounded-3xl" data-aos="fade-right">
       <p className="font-extrabold  text-xl md:text-2xl lg:text-3xl mb-4">
         {title}
       </p>
