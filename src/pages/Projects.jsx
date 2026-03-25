@@ -5,7 +5,7 @@ import { FaCode } from "react-icons/fa6";
 
 function Projects() {
   return (
-    <div className="container">
+    <div className="container mb-8">
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-auto">
         <li
           data-aos="fade-right"

@@ -9,9 +9,9 @@ function About() {
       <section className="mb-8">
         <div className="second__container ">
           <span className="title">{t("nav.about")}</span>
-          <div className="flex items-center gap-4">
+          <div className="lg:flex lg:items-center gap-4 ">
             <img
-              className=" h-56 object-cover rounded-2xl"
+              className=" lg:h-56 object-cover rounded-2xl"
               src="/assets/About-me.png"
               alt=""
             />
@@ -22,7 +22,7 @@ function About() {
           <Paragraph text={t("about.future")} /> */}
         </div>
       </section>
-      <section>
+      <section className="mb-8">
         <div className="second__container">
           <span className="title">{t("skill")}</span>
           <ul className="grid grid-cols-3  lg:grid-cols-4 ismigrid-rows-3  place-items-center gap-2">

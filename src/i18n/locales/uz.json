@@ -16,5 +16,6 @@
   "service.react.desc": "SPA (Single Page Application) va interaktiv komponentlar.",
   "service.respo.desc": "Mobil,Planshet va desktop qurilmalarga moslashgan saytlar.",
   "service.opt.desc": "Sayt tezligi va samaradorligini oshirish.",
-  "service.bug.desc": "Kodni tozalash va xatolarni tuzatish."
+  "service.bug.desc": "Kodni tozalash va xatolarni tuzatish.",
+  "contact.me":"Men bilan bog'laning ->"
 }

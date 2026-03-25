@@ -5,7 +5,7 @@ import { ServicesCard } from "../components";
 function Services() {
   const { t } = useTranslation();
   return (
-    <section>
+    <section className="mb-8">
       <div className="second__container">
         <h2 className=" hidden md:block md:text-2xl lg:text-2xl mb-6  font-semibold">
           {t("service")}
@@ -14,7 +14,7 @@ function Services() {
           {t("service.mobile")}
         </h2>
         <ul className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
-          <ServicesCard  title="Web Development" desc={t("service.web.desc")} />
+          <ServicesCard title="Web Development" desc={t("service.web.desc")} />
           <ServicesCard title="UI/UX Design" desc={t("service.ui.desc")} />
           <ServicesCard
             title="React.js Development"

@@ -7,9 +7,9 @@ function NavBar() {
   const { t, i18n } = useTranslation();
   const [open, setOpen] = useState(false);
   return (
-    <header className="py-4 mb-6 lg:mb-12">
-      <div className="container flex items-center justify-between  ">
-        <div className="block lg:hidden relative">
+    <header className="py-4 mb-6 lg:mb-12 ">
+      <div className="container   flex items-center justify-between  ">
+        <div className="block  lg:hidden relative">
           <button onClick={() => setOpen(!open)}>
             <img
               className=""
