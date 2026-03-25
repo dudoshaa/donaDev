@@ -5,7 +5,7 @@ body,
 }
 
 body {
-  @apply font-[Manrope]  text-[#f4f4f5];
+  @apply font-[Manrope]  text-[#f4f4f5] select-none;
 }
 
 #root {
