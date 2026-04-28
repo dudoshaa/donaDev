@@ -19,7 +19,7 @@ function Footer() {
             </Link>
           </li>
           <li>
-            <Link to="https://burxonovadurdona027@gmail.com">
+            <Link to="mailto:burxonovadurdona027@gmail.com">
               <MdOutlineAlternateEmail className="text-2xl lg:text-4xl transition-all hover:text-[#894c4c]" />
             </Link>
           </li>
