@@ -230,7 +230,7 @@ function Projects() {
                 <FaCode className="text-2xl lg:text-4xl" />
               </Link>
               <Link
-                to="https://sign-rust-eight.vercel.app/login"
+                to="#"
                 className=" px-2 py-1 border-2 border-transparent lg:px-4 lg:py-3 bg-[#cccccca1] rounded-4xl hover:border-[#9c210b] hover:text-[#9c210b]"
               >
                 <MdOutlineLink className="text-2xl   lg:text-4xl" />
